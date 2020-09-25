@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>Trabalho Prático</h1>
+    <h2>Seletor de Cores RGB</h2>
+    <div class="container">
+      <div class="inputGroup">
+        <input
+          class="range"
+          type="range"
+          value="0"
+          min="0"
+          max="255"
+          id="rangeA"
+        />
+        <input
+          class="text"
+          type="text"
+          value="0"
+          readonly
+          disabled
+          id="inputA"
+        />
+      </div>
+
+      <div class="inputGroup">
+        <input
+          class="range"
+          type="range"
+          value="0"
+          min="0"
+          max="255"
+          id="rangeB"
+        />
+        <input
+          class="text"
+          type="text"
+          value="0"
+          readonly
+          disabled
+          id="inputB"
+        />
+      </div>
+
+      <div class="inputGroup">
+        <input
+          class="range"
+          type="range"
+          value="0"
+          min="0"
+          max="255"
+          id="rangeC"
+        />
+        <input
+          class="text"
+          type="text"
+          value="0"
+          readonly
+          disabled
+          id="inputC"
+        />
+      </div>
+
+      <div class="color"></div>
+    </div>
+    <script defer src="./js/script.js"></script>
+  </body>
+</html>
